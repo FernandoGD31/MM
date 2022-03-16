@@ -3,10 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/drawable/bg_color.xml" value="0.2115" />
-        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/drawable/bg_color_nav.xml" value="0.2115" />
-        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/drawable/bg_color.xml" value="0.2595" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/drawable/bg_color_2.xml" value="0.2595" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/drawable/bg_color_nav.xml" value="0.2515" />
@@ -32,6 +28,12 @@
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/layout/fragment_trastornos_info.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tato_/Desktop/git/GitHub/MM/Kanner/app/src/main/res/drawable/bg_color_nav.xml" value="0.2515" />
+        <entry key="..\:/Users/tato_/Desktop/git/GitHub/MM/Kanner/app/src/main/res/layout/activity_main.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/tato_/Desktop/git/GitHub/MM/Kanner/app/src/main/res/layout/app_bar_main.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/tato_/Desktop/git/GitHub/MM/Kanner/app/src/main/res/layout/content_main.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/tato_/Desktop/git/GitHub/MM/Kanner/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/tato_/Desktop/git/GitHub/MM/Kanner/app/src/main/res/layout/fragment_info_kanner.xml" value="0.2115036231884058" />
       </map>
     </option>
   </component>
