@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/drawable/bg_color.xml" value="0.2115" />
+        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/drawable/bg_color_nav.xml" value="0.2115" />
+        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulises/Desktop/Git/MM/Kanner/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/drawable/bg_color.xml" value="0.2595" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/drawable/bg_color_2.xml" value="0.2595" />
         <entry key="..\:/Users/tato_/Desktop/Kanner/app/src/main/res/drawable/bg_color_nav.xml" value="0.2515" />
