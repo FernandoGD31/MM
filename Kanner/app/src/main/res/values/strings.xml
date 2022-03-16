@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Kanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Cuestionarios</string>
+    <string name="menu_trastornos">Trastornos</string>
+    <string name="menu_slideshow">Resultados</string>
+    <string name="menu_mapa">Centros de atencion</string>
+
+
+    <string name="TEA">Trastorno del espectro autista (TEA)</string>
+    <string name="TEL">Trastorno Específico del Lenguaje (TEL)</string>
+    <string name="TDAH">Trastorno por Déficit de Atención (TDAH)</string>
+    <string name="auditivo">Trastornos de procesamiento auditivo</string>
+    <string name="sensoriales">Trastornos sensoriales</string>
+    <string name="aprendizaje">Trastornos de aprendizaje</string>
+    <string name="cognitivo">Trastornos en el desarrollo cognitivo</string>
+
+    <string name="iTEA">Se conoce también como Trastorno Generalizado del Desarrollo (TGD) y ocurre cuando el niño tiene dificultades para interactuar, comunicarse, adaptarse a diferentes circunstancias o para responder a estímulos sensoriales como sabores y texturas. Éste afecta a uno de cada 175 niños y los síntomas (contacto visual limitado y movimientos repetitivos, entre otros) se manifiestan antes de los 3 años.\n</string>
+    <string name="iTEL">Éste retrasa el desarrollo del lenguaje en niños que no tienen pérdida de audición ni otra causa física. Por lo regular, los niños que lo padecen no dicen ninguna palabra hasta que cumplen los 2 años de edad aproximadamente y a los 3, pueden hablar pero es difícil comprenderlos porque tienen problemas al articular. Su lenguaje es desorganizado desde la forma de pronunciar hasta la conjugación de verbos o la comprensión de nuevas palabras, lo cual afecta posteriormente sus procesos de lectura y escritura.\n</string>
+    <string name="iTDAH">Se caracteriza por la dificultad para concentrarse así como por problemas de conducta. Sus 3 principales síntomas son inatención, impulsividad y distracción, y parte de confirmar el diagnóstico es monitorear si están presentes por seis meses al menos. A las personas con TDAH les cuesta trabajo regular dónde, cuándo y por cuánto tiempo dirigen y controlan la atención y sus acciones. Suelen ser distraídos, desorganizados y tienen problemas para seguir instrucciones, finalizar tareas o esperar turnos.\n</string>
+    <string name="iauditivo">Ocurre cuando es difícil procesar e interpretar con precisión la información que escuchan. Estos niños tienen una capacidad para oír normal pero se les dificulta procesar (entender, diferenciar y darle sentido) los sonidos que escuchan, en especial cuando hay ruidos de fondo. Se puede confundir con el TDAH y el autismo ya que en los tres se afecta la capacidad para escuchar y entender lo que se oye. La diferencia consiste en que en este trastorno las dificultad es entender los sonidos de lo que se dice y no su significado. A largo plazo, esta alteración puede provocar dificultades para hablar y disminuir la capacidad de la memoria auditiva.\n</string>
+    <string name="isensoriales">Estos se refiere a problemas para organizar y procesar los estímulos que reciben los niños a través de los sentidos: vista, oído, olfato, gusto, tacto, conciencia corporal (propiocepción) y el sentido del espacio (vestibular). Quienes lo sufren pueden mostrarse hipersensibles o, por el contrario, poco sensibles a estos estímulos. El síntoma más común es la dificultad para procesar la información relacionada con el movimiento de su cuerpo en el espacio, la orientación del mismo y su postura.\n</string>
+    <string name="iaprendizaje">Es la incapacidad de recibir, procesar, recordar y comunicar información. Estos niños tienen una agudeza visual y auditiva normal, pero les cuesta trabajo asimilar uno o más tipos de datos (auditivos, visuales, sensoriales) y, en consecuencia, realizar alguna tarea como escuchar, leer o realizar cálculos. Este tipo de trastornos incluyen la dislexia (trastorno de la lectura), disgrafía (de la escritura) y discalculia (en los procesos matemáticos). Aunque no se consideran un problema emocional, afectan gravemente este aspecto, ya que no pueden entender ciertas claves sociales.\n</string>
+    <string name="icognitivo">Entre estos se incluye el síndrome de Down y se refieren a la discapacidad de adquirir, manifestar o expresar los conocimientos. Esta es una condición adquirida durante la gestación, el nacimiento o la infancia por ciertos límites en el funcionamiento intelectual, motriz, sensorial (vista y oído) y en la conducta adaptativa (interacción social). Según sea un entorno (más o menos tolerante y facilitador), la discapacidad se expresará de manera diferente.\n</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="info">Kanner es una aplicación que ofrece diversas herramientas, las cuales ayudan al diagnóstico de los más comunes trastornos infantiles.\n"</string>
+    <string name="info2">Kanner es un conjunto de herramientas que sirven para detectar un posible riesgo en el desarrollo de un niño, la principal característica de Kanner es que nos ofrece una serie de cuestionarios que nos ayudaran a la detección temprana de algún posible trastorno infantil.\n\nLos cuestionarios que ofrece Kanner son cuestionarios de pesquisa y no deben confundirse con los test de diagnóstico ya que estos cuestionarios únicamente nos ayudaran en la detección de un posible riesgo en el desarrollo de nuestro hijo o hija, si el cuestionario arroja un resultado positivo, lo ideal seria que el niño acuda con un profesional, ya que habría ciertas señales de alarma de riesgo en el desarrollo del niño. \n\nLa finalidad de esta aplicación es que los padres o tutores del niño puedan tener las herramientas para una detección temprana, y más importante aún, una intervención temprana, pero no hay manera de hacer una intervención temprana si los padres o tutores no identifican las señales que pueden o no influir en algún tipo de trastorno. \n\n
+¿Qué son las herramientas de pesquisa? \n\nLos instrumentos de pesquisa son evaluaciones breves, formales y estandarizadas que permiten identificar en la población general a aquellos niños o niñas en riesgo de presentar un problema puntual. Estas herramientas suelen consistir en una serie de preguntas sencillas a los padres o cuidadores. Es muy IMPORTANTE aclarar que los instrumentos de pesquisa NO son diagnósticos, sino que sólo identifican a niños o niñas que requieren una evaluación más cuidadosa. \n\nExisten instrumentos de pesquisa específica, como por ejemplo el M-CHAT-R/F, el Q-CHAT, y el CSBS-DP, que ayudan a identificar cuáles niños o niñas en la población general podrían estar en riesgo de tener una CEA. Un resultado de pesquisa positiva NO significa que el niño o niña efectivamente tenga algún problema. En todo caso, una pesquisa positiva de riesgo sólo indica que ese niño o niña podría beneficiarse de una consulta con un profesional y/o una evaluación integral de su desarrollo. \n\n
+</string>
+
+    <!-- Strings de cuestionarios -->
+
+    <string name="csbs">CSBS DP. Cuestionario del Bebé y Niño Pequeño\n</string>
+    <string name="E_csbs">Rango de edad: 6 a 24 meses</string>
+    <string name="N_csbs">Nombre: Communication and Symbolic Behavior Scales – Developmental Profile – Infant Toddler Checklist\n</string>
+    <string name="T_csbs">Traducción: Escalas de Comunicación y Conducta Simbólica – Perfil del Desarrollo – Lista de Chequeo de Infantes y Deambuladores\n</string>
+    <string name="I_csbs">Este cuestionario fue diseñado en el 2002 por Amy Wetherby y Barry Prizant para identificar signos de alarma en el desarrollo temprano de niños o niñas de 6 a 24 meses. El cuestionario tiene 24 preguntas que deben ser contestados por los padres o cuidadores del niño o niña.\n\nInstrucciones para la persona que cuida al niño o niña:\nEsta lista fue diseñada para identificar distintos aspectos del desarrollo del bebé y el niño pequeño. Antes de aprender a hablar, hay varios comportamientos que pueden indicar si el niño o niña tendrá problemas para aprender a hablar. Este formulario debe ser llenado cuando el niño o niña tiene entre 6 y 24 meses de edad, por los padres o la persona que cuida al niño, para determinar si es necesario hacer una evaluación más completa. La persona que llena el formulario debe ser alguien que esté en contacto diario con el niño o niña, ya sean sus padres u otra persona. Marque la opción que describa mejor el comportamiento de su niño o niña. Si tiene dudas, marque la opción más adecuada según su experiencia con el niño o niña. Los niños y niñas de estas edades no necesariamente presentan todos los comportamientos que se describen aquí.\n</string>
+
+
+    <string name="mchat">M-CHAT-R/F Lista de Chequeo Modificada para Autismo en Deambuladores – Revisada con Seguimiento\n</string>
+    <string name="E_mchat">Rango de edad: 16 a 30 meses</string>
+    <string name="N_mchat">Nombre: Modified Checklist for Autism in Toddlers – Revised with Follow-Up\n</string>
+    <string name="T_mchat">Traducción: Lista de Chequeo Modificada para Autismo en Deambuladores – Revisada con Seguimiento\n</string>
+    <string name="I_mchat">Este cuestionario fue diseñado en el 2009 por Diana Robins, Debora Fein y Marianne Barton para evaluar el riesgo de los niños y niñas de entre 16 y 30 meses de tener una condición del espectro autista. Son 20 preguntas que se contestan por sí o por no, y que pueden ser completadas por los padres, cuidadores u otro adulto que conozca bien al niño o niña.\n\nInstrucciones para la persona que cuida al niño o niña:\nPor favor responda estas preguntas sobre su hijo o hija. Tenga en cuenta cómo se comporta su hijo o hija normalmente. Si ha visto el comportamiento algunas veces, pero su hijo/a no lo hace habitualmente, por favor conteste no.\n</string>
+
+
+    <!-- Preguntas de cuestionario CSBS-->
+
+    <string name="inst_csbs">Instrucciones para la persona que cuida al niño o niña:\n\n
+Esta lista fue diseñada para identificar distintos aspectos del desarrollo del bebé y el niño pequeño. Antes de aprender a hablar, hay varios comportamientos que pueden indicar si el niño o niña tendrá problemas para aprender a hablar. Este formulario debe ser llenado cuando el niño o niña tiene entre 6 y 24 meses de edad, por los padres o la persona que cuida al niño, para determinar si es necesario hacer una evaluación más completa. La persona que llena el formulario debe ser alguien que esté en contacto diario con el niño o niña, ya sean sus padres u otra persona. Marque la opción que describa mejor el comportamiento de su niño o niña. Si tiene dudas, marque la opción más adecuada según su experiencia con el niño o niña. Los niños y niñas de estas edades no necesariamente presentan todos los comportamientos que se describen aquí.\n
+\n</string>
+
+    <string name="p1_csbs">1. ¿Puede usted distinguir cuando su niño o niña está contento y cuando está triste? \n</string>
+    <string name="p2_csbs">2. Cuando juega con juguetes, ¿se vuelve a mirarle para ver si lo está observando?\n</string>
+    <string name="p3_csbs">3. ¿Sonríe o ríe mientras la mira? \n</string>
+    <string name="p4_csbs">4.  Si usted mira y señala un juguete al otro lado del cuarto, ¿su niño o niña se vuelve a verlo? \n</string>
+
+    <string name="p5_csbs">5. ¿Su niño o niña puede indicarle cuando necesita ayuda o cuando quiere algo que no puede alcanzar? \n</string>
+    <string name="p6_csbs">6. Si usted no le presta atención, ¿su niño o niña trata de llamar su atención? \n</string>
+    <string name="p7_csbs">7. ¿Hace su niño o niña cosas sólo para hacerle reír? \n</string>
+    <string name="p8_csbs">8. ¿Trata su niño o niña de mostrarle objetos interesantes
+para que usted los vea, sin que quiera que haga algo con ellos? \n</string>
+
+    <string name="p9_csbs">9. ¿Su niño o niña recoge objetos y se los da a usted? \n</string>
+    <string name="p10_csbs">10. ¿Le muestra su niño o niña objetos sin dárselos? \n</string>
+    <string name="p11_csbs">11. ¿Su niño o niña saluda moviendo la mano? \n</string>
+    <string name="p12_csbs">12. ¿Su niño o niña señala los objetos? \n</string>
+    <string name="p13_csbs">13. ¿Su niño o niña mueve la cabeza para decir que sí? \n</string>
+
+    <string name="p14_csbs">14. ¿Su niño o niña usa sonidos o palabras para llamar la atención o pedir ayuda? \n</string>
+    <string name="p15_csbs">15. ¿Su niño o niña une varios sonidos, como por ejemplo, ah-oh, mamá, gaga, nana, papá? \n</string>
+    <string name="p16_csbs">16.  ¿Aproximadamente cuántos de los siguientes sonidos consonantes
+usa su niño o niña: ma, na, ba, da, ga, pua, la, ya, sa? \n</string>
+
+
+    <string name="p17_csbs">17. ¿Cuantas palabras que usted pueda reconocer usa su niño o niña
+para indicar algo (como tete por biberón, buabua por agua)? \n</string>
+    <string name="p18_csbs">18. ¿Su niño o niña une dos palabras (por ejemplo más agua, este mío)? \n</string>
+
+
+    <string name="p19_csbs">19. Cuando llama a su niño o niña por su nombre, ¿responde volviendo la mirada
+o la cabeza hacia usted? \n</string>
+    <string name="p20_csbs">20. ¿Aproximadamente cuántas palabras o frases entiende su niño o niña sin
+ayuda de gestos? Por ejemplo, si usted dice “¿dónde está tu nariz?”,
+“¿dónde está papá?”, “dame la pelota” o “ven aquí”, sin señalar con la
+mano o apuntar, su niño o niña responderá de forma apropiada. \n</string>
+
+
+    <string name="p21_csbs">21. ¿Su niño o niña muestra interés en jugar con una variedad de objetos? \n</string>
+    <string name="p22_csbs">22. ¿Aproximadamente cuántos de los objetos siguientes usa su niño o niña correctamente: taza, biberón,
+tazón, cuchara, peine o cepillo, cepillo de dientes, esponja de baño, pelota, carrito de juguete,
+teléfono de juguete? \n</string>
+    <string name="p23_csbs">23. ¿Aproximadamente cuántos bloques o aros puede poner su niño o niña uno encima de otro? \n</string>
+    <string name="p24_csbs">24. ¿Juega con sus juguetes a juegos como: darle de comer a un osito de peluche,
+arrullar a una muñeca, o poner un muñeco en un carrito?  \n</string>
+
+    <!-- [][][][][][][][][][][][][][][][]][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]-->
+
+    <!-- cuestionario M-CHAT-R/F-->
+
+    <string name="Qchat">M-CHAT-R/F</string>
+    <string name="N_Qchat">Nombre: Quantitative – Checklist for Autism in Toddlers\n</string>
+    <string name="T_Qchat">Traducción: Lista de Chequeo Cuantitativa para Autismo en Deambuladores\n</string>
+    <string name="E_Qchat">Rango de edad: 18 a 48 meses</string>
+    <string name="I_Qchat">Este cuestionario fue diseñado en el 2008 por Carrie Allison, Simon Baron-Cohen, Sally Wheelwright, Tony Charman, Jennifer Richler, Greg Pasco y Carol Brayne, para identificar a los niños y niñas en riesgo de tener una condición del espectro autista. El cuestionario tiene 25 preguntas acompañadas de dibujos, que tienen 5 opciones de respuesta cada una, y que pueden ser completadas por los padres, cuidadores u otro adulto que conozca bien al niño o niña.\n</string>
+
+    <!-- Preguntas de cuestionario M-CHAT-R/F-->
+
+    <string name="p1_chat">1. Si Ud. señala algo que está del otro lado de la habitación, ¿su hijo o hija
+mira hacia allí? (POR EJEMPLO: si Ud. señala un juguete o un animal,
+¿su hijo o hija mira al juguete o al animal?)\n</string>
+    <string name="p2_chat">2. ¿Alguna vez se preguntó si su hijo o hija era sordo o sorda?\n</string>
+    <string name="p3_chat">3. ¿Su hijo o hija juega a simular, hacer “como si”, o juegos de imaginación?
+(POR EJEMPLO: simula que toma de una taza vacía, finge hablar por
+teléfono, o hace como que le da de comer a una muñeca o a un peluche?)\n</string>
+    <string name="p4_chat">4. ¿A su hijo o hija le gusta treparse a las cosas? (POR EJEMPLO: muebles,
+juegos de la plaza, o escaleras)\n</string>
+    <string name="p5_chat">5. ¿Su hijo o hija hace movimientos raros con los dedos cerca de sus ojos?
+(POR EJEMPLO: ¿mueve o agita los dedos cerca de sus ojos de manera
+rara?)\n</string>
+    <string name="p6_chat">6. ¿Su hijo o hija señala con el dedo cuando quiere pedir algo o buscar
+ayuda? (POR EJEMPLO: señala algún alimento o juguete que está fuera
+de su alcance)\n</string>
+    <string name="p7_chat">7. ¿Su hijo o hija señala con el dedo cuando quiere mostrarle algo
+interesante? (POR EJEMPLO: señala un avión en el cielo o un camión
+muy grande en la calle)\n</string>
+    <string name="p8_chat">8. ¿Su hijo o hija se interesa por otros niños? (POR EJEMPLO: ¿mira a
+otros niños, les sonríe, se acerca a ellos?)\n</string>
+    <string name="p9_chat">9. ¿Su hijo o hija le muestra cosas, trayéndoselas o alzándolas para que Ud.
+las vea – no para buscar ayuda sino simplemente para compartirlas con
+Ud.? (POR EJEMPLO: le muestra una flor, un peluche, o un camión de
+juguete)\n</string>
+    <string name="p10_chat">10. ¿Su hijo o hija responde cuando lo/la llama por su nombre? (POR
+EJEMPLO: ¿su hijo o hija lo mira o la mira, habla o balbucea, o
+interrumpe lo que está haciendo cuando lo/la llama por su nombre?)\n</string>
+    <string name="p11_chat">11. Cuando le sonríe a su hijo o hija, ¿le devuelve la sonrisa?\n</string>
+    <string name="p12_chat">12. ¿A su hijo o hija le molestan los ruidos comunes de todos los días? (POR
+EJEMPLO: ¿su hijo o hija grita o llora cuando escucha una aspiradora, una
+licuadora, una moto, la radio, música fuerte u otro ruido común?)\n</string>
+    <string name="p13_chat">13. ¿Su hijo o hija camina?\n</string>
+    <string name="p14_chat">14. ¿Su hijo o hija lo/la mira a los ojos cuando le está hablando, jugando con
+él/ella, o cuando lo/la está vistiendo?\n</string>
+    <string name="p15_chat">15. ¿Su hijo o hija trata de copiar lo que Ud. hace? (POR EJEMPLO: decir
+adiós con la mano, aplaudir, o hacer un ruido gracioso cuando Ud. lo hace)\n</string>
+    <string name="p16_chat">16. Si Ud. se da vuelta para mirar algo, ¿su hijo o hija gira la cabeza para ver
+lo que Ud. está mirando?\n</string>
+    <string name="p17_chat">17. ¿Su hijo o hija intenta hacer que Ud. lo/la mire? (POR EJEMPLO: ¿su hijo
+o hija lo/la mira para que lo/la felicite, o dice “mirá” o “mirame”?)\n</string>
+    <string name="p18_chat">18. ¿Su hijo o hija entiende cuando Ud. le dice que haga algo? (POR
+EJEMPLO: si Ud. no se lo señala, ¿su hijo o hija entiende cuando le pide
+“poné el libro sobre la silla” o “traeme la frazadita”?)\n</string>
+    <string name="p19_chat">19. Si pasa algo nuevo, ¿su hijo o hija lo/la mira a la cara para ver qué hace
+Ud.? (POR EJEMPLO: si su hijo o hija escucha un ruido raro o gracioso, o
+ve un juguete nuevo, ¿lo/la mira a la cara?)\n</string>
+    <string name="p20_chat">20. ¿A su hijo o hija le gustan las actividades de movimiento? (POR
+EJEMPLO: hamacarse o jugar al “caballito” sobre sus rodillas)\n</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="negativo">Negativo para Comunicación, No requiere tomar medidas preventivas.\n</string>
+    <string name="positivo">Positivo para Comunicación, Se sugiere una evaluación más cuidadosa.\n</string>
+
+    <string name="negativo2">Negativo para Lenguaje expresivo, No requiere tomar medidas preventivas.\n</string>
+    <string name="positivo2">Positivo para Lenguaje expresivo, Se sugiere una evaluación más cuidadosa.\n</string>
+
+    <string name="negativo3">Negativo para Simbólico, No requiere tomar medidas preventivas.\n</string>
+    <string name="positivo3">Positivo para Simbólico, Se sugiere una evaluación más cuidadosa.\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="guia1">Dentro del menú principal encontrara una opción llamada Cuestionarios, al abrir esta opción nos desplegara la información sobre los cuestionarios disponibles para realizar, damos clic en el que nos interese contestar.\n</string>
+    <string name="guia2">Una vez dentro del cuestionario tendremos que contestar todas las preguntas seleccionando la respuesta que sen encuentra debajo de cada pregunta.\n</string>
+    <string name="guia3">Una vez respondidas todas las preguntas presionaremos el botón llamado TERMINAR CUESTIONARIO, el cual nos llevara a la ventana de resultado.\n</string>
+    <string name="guia4">Dentro de la ventana de resultado podremos ver cuales fueron los resultados del cuestionario y cuales son las sugerencias que nos hace la aplicación, en la parte inferior nos mostrara un botón llamado GUARDAR RESULTADOS, este botón guardara los resultados del cuestionario que acabamos de llenar.\n</string>
+    <string name="guia5">Para poder ver los resultados de los cuestionarios que hemos contestado nos dirigiremos al menú principal y seleccionaremos la opción Resultados, una vez dentro de esta ventana podremos ver una lista de todos los resultados de los diferentes cuestionarios que hemos respondido y guardado.\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

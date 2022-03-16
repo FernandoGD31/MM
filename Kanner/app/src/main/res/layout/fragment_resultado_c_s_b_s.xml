@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".ResultadoCSBS">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textViewTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Resultados para el cuestionario CSBS DP"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textViewRes1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Los tres puntuaciones compuestas son:"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/textViewRes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="1. Compuesto para Comunicación"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/tvsas1"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="4dp"
+                android:text="Puntaje: "
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/textVisew3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="2. Compuesto para lenguaje expresivo:"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/tsvsas1"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="4dp"
+                android:text="Puntaje: "
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+
+            <TextView
+                android:id="@+id/stextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="3. Compuesto para simbólico: "
+                android:textColor="@color/cardview_light_background"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/tvssaas1"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="4dp"
+                android:text="Puntaje: "
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+
+            <TextView
+                android:id="@+id/stextsView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Resultado Pesquisa:"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/tvr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Conteste todas las preguntas\n"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/tvr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/tvr3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <Button
+                android:id="@+id/btn_g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Guardar resultados"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo2" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>

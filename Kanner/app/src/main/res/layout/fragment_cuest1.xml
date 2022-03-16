@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".FragmentCuest1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:id="@+id/textViewTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/csbs"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Emociones y mirada"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textViewRes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+
+                android:text="@string/p1_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p2_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p3_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textViewCve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p4_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Comunicación"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p5_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p6_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divsider9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVsiew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p7_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divisder9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textwView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p8_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divieder9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+                android:id="@+id/textViesw1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Gestos"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/texteView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p9_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividder9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textViewd12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p10_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividwwer9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVwiwew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p11_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividwer9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textViwew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p12_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividewr9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p13_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividers9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+                android:id="@+id/textVixew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Sonidos"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textViesw12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p14_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divideasrs9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVasiew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p15_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divideres9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/texiew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p16_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Ninguno"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="1 a 2"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="3 a 4"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="5 a 8 "
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="más de 8"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividerdes9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textVisxew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Palabras"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/texisew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p17_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Ninguno"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="1 a 3"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="4 a 10"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="11 a 30 "
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="más de 30"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividerdess9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVassiew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p18_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividesres9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+                android:id="@+id/textVisaxew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Comprensión"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVassiaew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p19_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividessres9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p20_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Ninguno"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="1 a 3"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb64"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="4 a 10"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                android:id="@+id/rb65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:buttonTint="@color/colorAccent"
+                android:text="11 a 30 "
+                android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="más de 30"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dires9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textVisaasxew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Uso de objetos"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVdassiaew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p21_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb67"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb68"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divssidessres9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/texiaew12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/p22_csbs"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Ninguno"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="1 a 2"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="3 a 4"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="5 a 8 "
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="más de 8"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividerdxes9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/texiaews12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p23_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Ninguno"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="2 bloques"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="3 a 4 bloques"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb78"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="5 o más "
+                    android:textColor="@color/colorAccent" />
+
+
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/dividerdsxes9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textVdasssiaew12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/p24_csbs"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Todavía no"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb80"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="A veces"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb81"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="Frecuentemente"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divssidesssres9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+
+
+            <TextView
+                android:id="@+id/textVdas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="¿Que edad tiene el niño o niña?"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLogo" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp">
+
+                <RadioButton
+                    android:id="@+id/rb82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="6-8 meses"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="9-11 meses"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/rb84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="12-14 meses"
+                    android:textColor="@color/colorAccent" />
+                <RadioButton
+                    android:id="@+id/rb85"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="15-17 meses"
+                    android:textColor="@color/colorAccent" />
+                <RadioButton
+                    android:id="@+id/rb86"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="18-20 meses"
+                    android:textColor="@color/colorAccent" />
+                <RadioButton
+                    android:id="@+id/rb87"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="21-24 meses"
+                    android:textColor="@color/colorAccent" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/div9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <Button
+                android:id="@+id/btn_cuest1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Terminar cuestionario"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

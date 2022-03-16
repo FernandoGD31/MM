@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kanner.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_infoKanner"
+            app:destination="@id/infoKanner"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_nav_home_to_blankFragment"
+            app:destination="@id/action_fragmentGuia_to_nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_fragmentGuia2"
+            app:destination="@id/fragmentGuia" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.kanner.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_to_fragmentCuest1"
+            app:destination="@id/fragmentCuest1" />
+        <action
+            android:id="@+id/action_nav_gallery_to_fragmentCuest2"
+            app:destination="@id/fragmentCuest2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.kanner.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/trastornos"
+        android:name="com.example.kanner.Trastornos"
+        android:label="Trastornos"
+        tools:layout="@layout/fragment_trastornos" >
+        <action
+            android:id="@+id/action_trastornos_to_trastornosInfo"
+            app:destination="@id/trastornosInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoKanner"
+        android:name="com.example.kanner.InfoKanner"
+        android:label="Mas sobre Kanner"
+        tools:layout="@layout/fragment_info_kanner" >
+        <action
+            android:id="@+id/action_infoKanner_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/trastornosInfo"
+        android:name="com.example.kanner.TrastornosInfo"
+        android:label="Informcion"
+        tools:layout="@layout/fragment_trastornos_info" >
+        <action
+            android:id="@+id/action_trastornosInfo_to_trastornos"
+            app:destination="@id/trastornos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCuest1"
+        android:name="com.example.kanner.FragmentCuest1"
+        android:label="CSBS-DP"
+        tools:layout="@layout/fragment_cuest1" >
+        <action
+            android:id="@+id/action_fragmentCuest1_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_fragmentCuest1_to_resultadoCSBS"
+            app:destination="@id/resultadoCSBS" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoCSBS"
+        android:name="com.example.kanner.ResultadoCSBS"
+        android:label="Resultados"
+        tools:layout="@layout/fragment_resultado_c_s_b_s" >
+        <action
+            android:id="@+id/action_resultadoCSBS_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGuia"
+        android:name="com.example.kanner.FragmentGuia"
+        android:label="Guía"
+        tools:layout="@layout/fragment_guia" >
+        <action
+            android:id="@+id/action_fragmentGuia_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_fragmentGuia_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_fragmentGuia_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCuest2"
+        android:name="com.example.kanner.FragmentCuest2"
+        android:label="M-CHAT-R/F"
+        tools:layout="@layout/fragment_cuest2" >
+        <action
+            android:id="@+id/action_fragmentCuest2_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_fragmentCuest2_to_fragResultadoMCHAT"
+            app:destination="@id/fragResultadoMCHAT" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragResultadoMCHAT"
+        android:name="com.example.kanner.FragResultadoMCHAT"
+        android:label="Resultados"
+        tools:layout="@layout/fragment_frag_resultado_m_c_h_a_t" >
+        <action
+            android:id="@+id/action_fragResultadoMCHAT_to_fragmentCuest2"
+            app:destination="@id/fragmentCuest2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.kanner.MapsFragment"
+        android:label="Ubicaciones"
+        tools:layout="@layout/fragment_maps" />
+
+</navigation>
